@@ -1,5 +1,5 @@
 using System;
-//using Random;
+
 
 namespace Bid
 {
