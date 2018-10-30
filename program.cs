@@ -10,18 +10,16 @@ namespace program
         static void Main(string[] args)
         {
          //methods and stuff here
-		 public static void createAccount()
-		 {
-			//return user; maybe? 
-		 }//end createAccount
-		 public static void login()
-		 {
+			List<item> itemList = new List<item>();
+			List<user> userList = new List<user>();
+			List<bid> bidList = new List<bid>();
 			
-		 } //end login
-		 public static void logout();
-		 {
-			 
-		 } //login
+			
+
+		public static void collectPayment()
+		{
+			//insert method/
+		}//end collectPayment
         } //end main
     }//end class program
 }//end namespace program

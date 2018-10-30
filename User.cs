@@ -38,36 +38,67 @@ using system;
 	public void setCreditCard(int card){
         creditCard = card ;
     }
-    public float getCreditCard(){
+    public long getCreditCard(){
         return creditCard;
     }
     public void setBillingAddress(string address){
         billAddress = address ;
     }
-    public float getBillingAddress(){
+    public int getBillingAddress(){
         return billAddress;
     }
     public void setBillingZip(string zip){
         billZip = zip ;
     }
-    public float getBillingZip(){
+    public zip getBillingZip(){
         return billZip;
     }
-}//MIGHT NOT NEED THIS BRACKET
+		public static void placeBid()
+		{
+			//insert method/
+		}//end placeBid
 	}//end class buyer	
 		
 	public class Seller:User
 	{
 		//insert any additional attributes for seller class here!
-		public Buyer(string userName, string passWord, string email, int zip, int bidID
+		public Seller(string userName, string passWord, string email, int zip, int bidID
 					, int userID):base(userName,  passWord,  email,  zip,  bidID
 					,  userID){
 
     }//end Seller
+		public static void createBidLog()
+		{
+			//insert method/
+		}//end createBidLog
+		public static void endAuction()
+		{
+			//insert method/
+		}//end endAuction
+		public static void distributePayment()
+		{
+			//insert method/
+		}//end distributePayment
+		public static void startAuction()
+		{
+			//insert method/
+		}//end startAuction
+    }//end class seller
+		 public static void createAccount()
+	 {
+		//return user; maybe? 
+	 }//end createAccount
+	 public static void login()
+	 {
+		
+	 } //end login
+	 public static void logout();
+	 {
+		 
+	 } //login
+	
 
-    }
-}//MIGHT NOT NEED THIS BRACKET
-	}//end class buyer			
+	}//end class user			
 		
 		
 		
